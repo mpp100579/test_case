@@ -1,0 +1,86 @@
+1524798344144	geckodriver	INFO	Listening on 127.0.0.1:8551
+1524798346163	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.UsdOrSIRNFnT
+1524798346166	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1524798346213	geckodriver::marionette	INFO	Connecting to Marionette on localhost:8557
+1524798347984	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.10: Unknown permission "unlimitedStorage"
+1524798347985	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.12: Unknown permission "debugger"
+1524798347985	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing options_page: An unexpected property was found in the WebExtension manifest.
+1524798347986	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing offline_enabled: An unexpected property was found in the WebExtension manifest.
+1524798348642	Marionette	INFO	Listening on port 8557
+1524798349326	addons.webextension.{62c1d54c-f371-4d89-8e07-69e67c8ebea8}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+1524798349350	addons.webextension.{91f05833-bab1-4fb1-b9e4-187091a4d75d}	WARN	Loading extension '{91f05833-bab1-4fb1-b9e4-187091a4d75d}': Reading manifest: Error processing permissions.10: Unknown permission "unlimitedStorage"
+1524798349351	addons.webextension.{91f05833-bab1-4fb1-b9e4-187091a4d75d}	WARN	Loading extension '{91f05833-bab1-4fb1-b9e4-187091a4d75d}': Reading manifest: Error processing permissions.12: Unknown permission "debugger"
+1524798349351	addons.webextension.{91f05833-bab1-4fb1-b9e4-187091a4d75d}	WARN	Loading extension '{91f05833-bab1-4fb1-b9e4-187091a4d75d}': Reading manifest: Error processing options_page: An unexpected property was found in the WebExtension manifest.
+1524798349352	addons.webextension.{91f05833-bab1-4fb1-b9e4-187091a4d75d}	WARN	Loading extension '{91f05833-bab1-4fb1-b9e4-187091a4d75d}': Reading manifest: Error processing offline_enabled: An unexpected property was found in the WebExtension manifest.
+1524798349365	addons.webextension.{91f05833-bab1-4fb1-b9e4-187091a4d75d}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+JavaScript error: moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/background/kar.js, line 3: TypeError: chrome.runtime.onInstalled is undefined
+JavaScript error: moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/katalon/background.js, line 16: TypeError: chrome.tabs.onSelectionChanged is undefined
+1524798351537	Marionette	INFO	startBrowser 6c52a7ba-ecea-44c3-827b-cca8a27dbaaa
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/utils.js, line 6219: unreachable code after return statement
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/selenium-api.js, line 3181: unreachable code after return statement
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/selenium-api.js, line 3181: unreachable code after return statement
+Extension error: TypeError: response is undefined resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/katalon/main.js 38
+[[Exception stack
+@resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/katalon/main.js:38:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:39:129
+runSafeWithoutClone@resource://gre/modules/ExtensionUtils.jsm:173:38
+wrapPromise/</<@resource://gre/modules/ExtensionUtils.jsm:324:15
+withLastError@resource://gre/modules/ExtensionUtils.jsm:266:14
+wrapPromise/<@resource://gre/modules/ExtensionUtils.jsm:320:11
+]]
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/utils.js, line 6219: unreachable code after return statement
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/selenium-api.js, line 3181: unreachable code after return statement
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/selenium-api.js, line 3181: unreachable code after return statement
+Extension error: TypeError: response is undefined resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/katalon/main.js 38
+[[Exception stack
+@resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/katalon/main.js:38:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:39:129
+runSafeWithoutClone@resource://gre/modules/ExtensionUtils.jsm:173:38
+wrapPromise/</<@resource://gre/modules/ExtensionUtils.jsm:324:15
+withLastError@resource://gre/modules/ExtensionUtils.jsm:266:14
+wrapPromise/<@resource://gre/modules/ExtensionUtils.jsm:320:11
+]]
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/utils.js, line 6219: unreachable code after return statement
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/selenium-api.js, line 3181: unreachable code after return statement
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/selenium-api.js, line 3181: unreachable code after return statement
+Extension error: TypeError: response is undefined resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/katalon/main.js 38
+[[Exception stack
+@resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/katalon/main.js:38:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:39:129
+runSafeWithoutClone@resource://gre/modules/ExtensionUtils.jsm:173:38
+wrapPromise/</<@resource://gre/modules/ExtensionUtils.jsm:324:15
+withLastError@resource://gre/modules/ExtensionUtils.jsm:266:14
+wrapPromise/<@resource://gre/modules/ExtensionUtils.jsm:320:11
+]]
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/utils.js, line 6219: unreachable code after return statement
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/selenium-api.js, line 3181: unreachable code after return statement
+JavaScript warning: resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/content/selenium-api.js, line 3181: unreachable code after return statement
+Extension error: TypeError: response is undefined resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/katalon/main.js 38
+[[Exception stack
+@resource://gre/modules/ExtensionContent.jsm -> moz-extension://ed776fa4-98c0-409d-a90b-53cc69690fdf/katalon/main.js:38:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:39:129
+runSafeWithoutClone@resource://gre/modules/ExtensionUtils.jsm:173:38
+wrapPromise/</<@resource://gre/modules/ExtensionUtils.jsm:324:15
+withLastError@resource://gre/modules/ExtensionUtils.jsm:266:14
+wrapPromise/<@resource://gre/modules/ExtensionUtils.jsm:320:11
+]]
+JavaScript error: , line 0: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: , line 0: Error: Could not establish connection. Receiving end does not exist.
+JavaScript error: , line 0: Error: Could not establish connection. Receiving end does not exist.
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.panel.firstChild is null
+Full stack: PopupNotifications_showPanel/promise<@resource://gre/modules/PopupNotifications.jsm:757:7
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937:23
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750:11
+
+*************************
+windows.onRemoved event fired after context unloaded.
+[Child 20416] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

@@ -1,0 +1,10 @@
+2018-04-17 19:15:12,002 - __main__ - DEBUG - debug message
+2018-04-17 19:15:12,022 - __main__ - INFO - info message
+2018-04-17 19:15:12,022 - __main__ - WARNING - warn message
+2018-04-17 19:15:12,022 - __main__ - ERROR - error message
+2018-04-17 19:15:12,022 - __main__ - CRITICAL - critical message
+2018-04-19 11:10:12,010 - __main__ - DEBUG - debug message
+2018-04-19 11:10:12,010 - __main__ - INFO - info message
+2018-04-19 11:10:12,010 - __main__ - WARNING - warn message
+2018-04-19 11:10:12,012 - __main__ - ERROR - error message
+2018-04-19 11:10:12,012 - __main__ - CRITICAL - critical message

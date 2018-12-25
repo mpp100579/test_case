@@ -1,0 +1,81 @@
+1533091279763	geckodriver	INFO	Listening on 127.0.0.1:7272
+1533091281751	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.F9wiYWQ0sRKk
+1533091281754	geckodriver::marionette	INFO	Starting browser d:\Program Files\Mozilla Firefox\firefox.exe with args []
+1533091281815	geckodriver::marionette	INFO	Connecting to Marionette on localhost:7284
+1533091285193	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1533091287485	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.12: Value "debugger" must either: must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], must either [be one of ["<all_urls>"], match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], be one of ["bookmarks"], be one of ["history"], be one of ["activeTab", "tabs"], be one of ["cookies"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["menus", "contextMenus"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["browserSettings"], be one of ["contextualIdentities"], be one of ["downloads", "downloads.open", "downloads.shelf"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], be one of ["identity"], or match the pattern /^experiments(\.\w+)+$/
+1533091287486	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing options_page: An unexpected property was found in the WebExtension manifest.
+1533091287486	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing offline_enabled: An unexpected property was found in the WebExtension manifest.
+1533091292514	addons.webextension.{91f05833-bab1-4fb1-b9e4-187091a4d75d}	WARN	Loading extension '{91f05833-bab1-4fb1-b9e4-187091a4d75d}': Reading manifest: Error processing permissions.12: Value "debugger" must either: must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], must either [be one of ["<all_urls>"], match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], be one of ["bookmarks"], be one of ["history"], be one of ["activeTab", "tabs"], be one of ["cookies"], be one of ["topSites"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["menus", "contextMenus"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["browserSettings"], be one of ["contextualIdentities"], be one of ["downloads", "downloads.open", "downloads.shelf"], be one of ["management"], be one of ["privacy"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["theme"], be one of ["identity"], or match the pattern /^experiments(\.\w+)+$/
+1533091292516	addons.webextension.{91f05833-bab1-4fb1-b9e4-187091a4d75d}	WARN	Loading extension '{91f05833-bab1-4fb1-b9e4-187091a4d75d}': Reading manifest: Error processing options_page: An unexpected property was found in the WebExtension manifest.
+1533091292516	addons.webextension.{91f05833-bab1-4fb1-b9e4-187091a4d75d}	WARN	Loading extension '{91f05833-bab1-4fb1-b9e4-187091a4d75d}': Reading manifest: Error processing offline_enabled: An unexpected property was found in the WebExtension manifest.
+1533091301434	addons.webextension.{91f05833-bab1-4fb1-b9e4-187091a4d75d}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: chrome://browser/content/tabbrowser.xml, line 2346: TypeError: invalid 'in' operand browser
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/katalon/background.js, line 16: TypeError: chrome.tabs.onSelectionChanged is undefined
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/content/utils.js, line 6219: unreachable code after return statement
+JavaScript error: moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/content/jquery.simulate.js, line 331: ReferenceError: jQuery is not defined
+JavaScript warning: moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/content/selenium-api.js, line 3181: unreachable code after return statement
+Extension error: TypeError: response is undefined moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/katalon/main.js 38
+[[Exception stack
+@moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/katalon/main.js:38:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:353:13
+]]
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/content/selenium-api.js, line 3181: unreachable code after return statement
+JavaScript warning: moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/content/utils.js, line 6219: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/content/selenium-api.js, line 3181: unreachable code after return statement
+JavaScript warning: moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/content/utils.js, line 6219: unreachable code after return statement
+Extension error: TypeError: response is undefined moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/katalon/main.js 38
+[[Exception stack
+@moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/katalon/main.js:38:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:353:13
+]]
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-81802338-11, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-81802338-11, line 69: unreachable code after return statement
+Extension error: TypeError: response is undefined moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/katalon/main.js 38
+[[Exception stack
+@moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/katalon/main.js:38:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:353:13
+]]
+Extension error: TypeError: response is undefined moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/katalon/main.js 38
+[[Exception stack
+@moz-extension://d2e506f1-2f47-49f5-8bc1-858254fb09fb/katalon/main.js:38:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionUtils.jsm:63:129
+runSafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:174:38
+wrapPromise/<@resource://gre/modules/ExtensionCommon.jsm:353:13
+]]
+windows.onRemoved event fired after context unloaded.
+[Parent 15412] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15412] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15412] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15412] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17904] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18168] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18152] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18152] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 34884] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ line 346
+[Child 4692] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4692] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 31528] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

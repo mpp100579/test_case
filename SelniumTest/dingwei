@@ -1,0 +1,97 @@
+#coding=utf-8
+
+from selenium import webdriver
+
+driver = webdriver.Firefox()#打开浏览器
+driver.get(r'file:///E:/javascript/js-%E4%BA%8B%E4%BB%B61.html')#读取一个HTML网页或者说获取一个文件
+'''
+ele = driver.find_element_by_xpath('/html')#@第一种xpath路径查找：通过XPATH查找根节点HTML
+#print ele.text                           #打印根节点下的所有元素text
+
+ele = driver.find_element_by_xpath('/html/body/form/input[1]') #@第二种xpath：通过绝对路径找到input标签下的第一个input元素
+print ele.get_attribute('value')                              #打印元素的某个属性值ele.get_atrribute()
+ele.clear()                                                   #输入之前先清空
+ele.send_keys('FEIFEI')                                       #输入
+ele = driver.find_element_by_xpath('/html/body/form/input[2]')
+print ele.get_attribute('type')
+ele.clear()
+ele.send_keys('123455')
+print ele.send_keys('455')
+      
+ele = driver.find_element_by_xpath('//input')  #@第三种xpath：//表示遍历整个文档，根据选取的元素进行全局搜索方式模糊定位，再索引
+print ele.get_attribute('name')
+ele = driver.find_element_by_xpath('//input[1]')
+print ele.get_attribute('name')
+ele = driver.find_element_by_xpath('//input[2]')
+print ele.get_attribute('name')
+ele = driver.find_element_by_xpath('//input[4]')
+print ele.get_attribute('value')
+
+ele = driver.find_element_by_xpath('//form//input[4]') #@第四种xpath：根据选取的父元素来查找子元素：查找所有父元素为form的input子元素，再来索引
+print ele.get_attribute('name')
+
+ele = driver.find_element_by_xpath('//input[@id]') #@第五种xppath:根据选取所有的input元素的id进行定位
+print ele.id                                          #打印查找到的元素id
+print ele.get_attribute('name')                       #打印查找到的元素的‘name属性值’
+print ele.tag_name                                    #打印当前节点位置标签
+
+ele = driver.find_element_by_xpath('//input[@id="zxc"]')#@第六种xpath:根据选取所有的input元素的id 值来定位
+print ele.id
+print ele.get_attribute('name')
+ele = driver.find_element_by_xpath('//input[@name ="Bike"]')
+print ele.id
+print ele.tag_name                                    #打印当前节点位置标签
+ele = driver.find_element_by_xpath('//form/input/..') #选取当前节点的父节点查找，也就是回到父节层级来查找
+print ele.tag_name                                    #打印当前节点位置标签
+
+ele = driver.find_element_by_xpath('//*[count(input)=3]') #@第七种统计xpath：//表示遍历整个文档，*表示查找文档中的所有元素，count表示统计包含，input元素有2 个条件的位置
+print ele.tag_name
+print ele.get_attribute('name')
+
+ele = driver.find_element_by_xpath('//*[local-name()="input"]')#@第八种查找所有标签，其中标签local_name()='input'的元素，等价于//input
+print ele.get_attribute('name')
+
+ele = driver.find_element_by_xpath('//*[starts-with(local-name(),"i")]') #@第九种查找所有所有标签以i开头的元素
+print ele.tag_name
+print ele.get_attribute('name')
+
+ele = driver.find_element_by_xpath('//body/iframe/..')
+print ele.tag_name
+
+ele = driver.find_element_by_xpath('//*[contains(local-name(),"i")]') #@第十种查找标签：查找所有的标签包含i的元素
+print ele.tag_name
+print ele.get_attribute('name')
+ele = driver.find_element_by_xpath('//*[string-length(local-name())=5]') #@第十一种查找标签：查找所有标签长度为5的元素
+print ele.tag_name
+print ele.get_attribute('name')
+
+
+
+driver = webdriver.Firefox()           #重新打开一个浏览器
+driver.get("http://www.maiziedu.com/") #打开网页
+driver.maximize_window()              #最大化网页
+ele1 = driver.find_element_by_link_text("机器学习")  #文字连接定位by_link_text
+print ele1.id                                       #获取当前定位元素的id
+ele1.click()
+driver.back()
+                                    #css路径定位
+ele2 = driver.find_element_by_css_selector("html body.YaHei.index div.main div.side-bar div.side-menu.w1920 div.w1920-scroll div.side-nav ul li.index-ai-icon a")
+print ele2.id
+ele2.click()
+                                    #by_css_selector 的input输入定位
+ele3 = driver.find_element_by_css_selector('input[id = \'data-search\']')
+ele3.send_keys("python")
+                                  #搜索按钮定位by_class_name
+ele4 =driver.find_element_by_class_name("search-btn")
+ele4.click()
+print ele3.id
+print ele4.id
+                                 #按图片定位by_css_selector
+#ele5 =driver.find_element_by_css_selector('img[alt = \'语言从2.x到3.x全面掌握\']')
+#ele5.click()
+#print ele5.id
+
+#页面中这些文本是唯一的，所有可以通过link定位:
+driver.find_element_by_link_text("糯米").click()
+'''
+
